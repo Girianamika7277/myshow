@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+.genre-section{
+   
+    height: 100%;
+    width: 12vw;
+    padding: 0.8rem 0 0 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1.2rem;
+
+    
+}
+.genre-list{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    font-size: 1.2rem;
+    height: 100%;
+    
+    
+}
+.gen{
+    color: brown;
+    margin-left:1rem;
+}
+
+.genre-list>button{
+    
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:center;
+    justify-content: center;
+    background: rgb(15, 3, 124);
+    overflow-x: auto;
+    white-space:inherit;
+    margin:5px;
+    border-radius: 10% 30% 39% 5%;
+    text-decoration-style: solid;
+
+}
+.genre-data{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 110px) and (max-width: 1000px) {
+
+    .genre-section{
+        width: 20%;
+        padding: 0.6rem 0 0 0.2rem;
+        margin-right: 0.2rem;
+    }
+    .genre-section>h1{
+        font-size: 1rem;
+        margin-bottom: auto;
+    
+    }
+    .genre-list{
+        padding-left: 0.2rem;
+        font-size: 0.7rem;
+    }
+    .genre-list>button{
+        font-size: 0.8rem;
+    }
+    
+}
