@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "build": "^0.1.4",
-    "netlify-cli": "^12.9.1",
+    "netlify-cli": "^16.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^6.4.2",
@@ -37,7 +37,7 @@
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
-    "babel-core": "^6.26.3",
+    "babel-core": "^4.7.16",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -45,7 +45,7 @@
     "file-loader": "6.2.0",
     "html-webpack-plugin": "^4.5.2",
     "style-loader": "^1.2.1",
-    "webpack": "^4.44.2",
+    "webpack": "^5.88.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   }
